@@ -1,0 +1,118 @@
+/*
+
+selector {
+        property: value;
+        property: value;
+        property: value;
+        ect...
+        }
+
+        Writing Selectors:
+
+        tagname - selects all tags of a given type
+        .classname - selects all members of a given class
+        tagname.class - only selects tags that are also memebers of a given class
+
+        > - child symbol
+
+        tagname>tagname
+        tagname>.classname
+        .classname>.classname
+        .classname>tagname
+
+*/
+        
+.nav {
+    
+    list-style: none;
+
+    border-style: hidden;
+
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+
+    border-style: hidden;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+   
+
+
+
+}
+
+
+.nav>li>a {
+
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+    font-family: fantasy;
+    font-size: 50px;
+
+}
+
+.nav>li>a:hover{
+
+           background-color: rgb(255, 187, 0);
+            border-radius: 5px;
+            color: red;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 30px;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    
+
+}
+body {
+
+    background-color: rgb(255, 255, 255);
+   background-repeat: repeat-x;
+    background-size: cover;
+
+
+}
+
+h2 {
+
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.centerimg {
+
+    margin: auto;
+
+
+}
+
+img {
+
+    height: auto;
+
+    width: 30%;
+
+}
+
+.rightimg {
+
+    margin-right: auto;
+
+}
